@@ -1,0 +1,17 @@
+Pseudocode Game Tebak Kecocokan Pilihan
+---------------------------------------
+
+DEKLARASI variabel "tipeData" berupa array berisi lima macam tipe data.
+DEKLARASI variabel "jawaban" untuk menampung value dari hasil acakan program.
+JALANKAN fungsi mengacak elemen dari array.
+TAMPUNG hasilnya pada "jawaban".
+BACA input dari pemain
+BANDINGKAN input pemain;
+	JIKA input pemain adalah "cancel" 
+		MAKA program terputus.
+	JIKA input pemain sama dengan "jawaban" 
+		MAKA tampilkan: "Jawaban COCOK"
+	JIKA input pemain tidak sama dengan "jawaban" DAN bukan anggota dari "tipeData", 
+		MAKA tampilkan: "Jawaban BUKAN tipe data !"
+	JIKA input pemain tidak sama dengan "jawaban" DAN anggota dari "tipeData", 
+		MAKA tampilkan "Jawaban TIDAK COCOK"
